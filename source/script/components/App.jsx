@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import AddClientForm from './AddClientForm';
+import Client from './Client';
 
 const App = () => (
     <BrowserRouter>
         <div className='app'>
             <Switch>
-                <Route path='/' component={AddClientForm}/>
+                <Route path='/' component={Client}/>
             </Switch>
         </div>
     </BrowserRouter>
